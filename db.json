@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Project 1",
+      "team_uuids": ["team-uuid-1", "team-uuid-2"]
+    },
+    {
+      "id": 2,
+      "title": "Project 2",
+      "team_uuids": ["team-uuid-3", "team-uuid-4"]
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Team 1",
+      "organization_uuids": ["org-uuid-1"]
+    },
+    {
+      "id": 2,
+      "name": "Team 2",
+      "organization_uuids": ["org-uuid-2"]
+    }
+  ],
+  "random_counts": [
+    1, 2, 3, 4, 5
+  ],
+  "team_users": [
+    {
+      "id": 1,
+      "name": "User 1",
+      "team_uuid": "team-uuid-1"
+    },
+    {
+      "id": 2,
+      "name": "User 2",
+      "team_uuid": "team-uuid-1"
+    }
+  ],
+  "random_hours":[ "8 hours 2 minutes"],
+  "random_percentages": [72]
+}
+
